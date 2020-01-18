@@ -2,96 +2,58 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Victor's Personal Site</title>  
+        <title>Victor's Personal Site</title> 
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="icon" href="favicon.ico">
+        <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Pacifico|Poiret+One&display=swap" rel="stylesheet">
     </head>
     <body>
-        <table cellspacing="20">
-            <tr>
-                <td>
-                    <img src="images/victor photo.jpg" alt="Victor Profile">
-                </td>
-                <td>
-                    <h1>Victor Manuel Brito Garcia</h1>
-                    <em><p>Gerente de Desarrollo y Co-Propetario de <a href="https://www.soluflex.com.do">SS Flex Development</a></p></em>
-                    <p> Estoy aqui en proeso de metedera de mano asi que debo escribir un poquito aqui para llenar este segmento
-                      pero ya saben lo importante es meter mano como un pulpo en celo
-                    </p>
-                </td>
-            </tr>
-        </table>
-        
-        <hr size="2"/>
-        <h3>Educacion</h3>
-        <ul>
-            <li>Ingeniero en Sistemas de Informacion</li>
-            <li>Desarrollo de Aplicaciones Android</li>
-            <li>Diplomado en el Mercado de Valores</li>
-            <li>Diplomado en la Bolsa de Productos Dominicana JAD</li>
-        </ul>
-        <hr size="2"/>
-        <h3>Experiencia Laboral</h3>
-        <table  cellspacing="10">
-            <thead>
-                <tr>
-                    <th>Fechas</th>
-                    <th>Lugar</th>
-                    <th>Puesto</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>2007-2008</td>
-                    <td>Centro de Internet @nviService</td>
-                    <td>Servicio al Cliente</td>
-                </tr>
-                <tr>
-                    <td>2010-2012</td>
-                    <td>RSG Informatica Aplicada</td>
-                    <td>Programador Senior</td>
-                </tr>
-                <tr>
-                    <td>2014-2019</td>
-                    <td>SS Flex Development</td>
-                    <td>Gerente de Desarrollo</td>
-                </tr>
-            </tbody>
-        </table>
-        <hr size="2"/>
-        <h3>Habilidades</h3>
-        <table cellspacing="10">
-            <tr>
-                <td>
-                    <table>
-                        <tr>
-                            <td>Delphi</td>
-                            <td>⭐⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>Java</td>
-                            <td>⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>Buchix</td>
-                            <td>⭐⭐⭐⭐⭐</td>
-                        </tr>
-                    </table>
-                </td>
-                <td>
-                    <table>
-                        <tr>
-                            <td>Android</td>
-                            <td>⭐⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>Visual Basic</td>
-                            <td>⭐⭐⭐⭐</td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-        <hr size="2"/>
-        <p><a href="hobbies.html">Mis hobbies</a></p>
-        <p><a href="contact-info.html">Informacion de Contacto</a></p>
+        <div class="top-container">
+            <div>
+                <img class = "top-cloud" src="images/cloud.png" alt="cloud-img">
+                <h1>I'm Victor</h1>
+                <h2 id="lbl-intro">Developer and Consultant</h2>
+                <img class = "bottom-cloud" src="images/cloud.png" alt="cloud-img">
+            </div>
+            <img src="images/mountain.png" alt="mountain-img">
+        </div>
+
+
+        <div class="middle-container">
+            <div class="profile">
+                <img class="circular" src="images/victor photo.jpg" alt="profile-picture">
+                <h2>Hello</h2>
+                <p>I'm an Information Systems Engineer based on the Dominican Republic specialized in Software Developing and in the implementation of ERP Systems. </p>
+            </div>
+            <hr>
+            <div class="skills">
+                <h2>My Skills.</h2>
+                <div class="skill-row">
+                    <img class="developer-img" src="images/developer.png" alt="developer-icon">
+                    <h3>Software Developing</h3>
+                    <p>I have more than 10 years of experience developing all kind of software and application, I'm a Certified Android Developer, an experienced Desktop Programmer and a skilled Web Developer. </p>
+                </div>
+                <div class="skill-row">
+                    <img class="consultant-img" src="https://image.flaticon.com/icons/svg/1256/1256652.svg" alt="soluflex-image">
+                    <h3>Consultant</h3>
+                    <p>I Have more than 5 years of experience as an ERP implementation consultant, in fact a have one ERP of my own named Soluflex that I highly recommend for improve the operativity of businesses.</p>
+                </div>
+            </div>
+            <hr>
+            <div class="contact-me">
+                <h2>Get In Touch</h2>
+                <h3>If you are interested in acquiere one of my services.</h3>
+                <p>If you want to improve the perfomance and organization of your business, or want to develop a mobile app, a software or a web page, contact me</p>
+                <a class="btn" href="mailto:victor.brito.garcia@gmail.com">CONTACT ME</a>
+            </div>
+        </div>
+          
+          
+        <div class="bottom-container">
+            <a class="footer-link" href="https://www.linkedin.com/in/victor-manuel-brito-garcia-a5abb8146/">LinkedIn</a>
+            <a class="footer-link" href="https://twitter.com/">Twitter</a>
+            <a class="footer-link" href="https://www.soluflex.com.do/">Website</a>
+            <p class="footer-ref">© 2020 Victor Brito @ SS Flex Development.</p>
+        </div>          
     </body>
 </html>
